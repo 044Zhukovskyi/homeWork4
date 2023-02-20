@@ -21,7 +21,7 @@ h1{
 
 h2{
   text-align: center;
-  height: 30px;
+margin: 4px 0;
 }
 
 p{
@@ -31,7 +31,6 @@ p{
 .card{
   display: inline-block; 
   width: 400px;
-  height: 300px;
   padding: 20px;
 }
 
@@ -40,14 +39,17 @@ p{
   background-color: aqua;
   border: 2px solid gray; 
   border-radius: 4px;
+  text-align: center;
 }
 
 .img{
+  display: block;
   border-radius: 2px;
-  width: 356px;
+  display: block;
   height: 120px;
   padding: 5px;
   box-shadow: inset 1px 1px 10px 2px green;
+
 }
 
 .img img{
@@ -62,10 +64,5 @@ p{
   overflow: hidden;
   text-align: justify;
 }
-
-.link{
-  text-align: center;
-}
-
 
 
